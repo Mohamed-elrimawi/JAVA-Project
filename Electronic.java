@@ -1,8 +1,8 @@
 public class Electronic extends  StockItem implements Cloneable {
 
-    String version;
-    String type;
-    double power;
+   private  String version;
+   private  String type;
+   private double power;
 
 
 
