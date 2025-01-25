@@ -1,7 +1,7 @@
 public abstract class StockItem implements Comparable<StockItem> ,Cloneable{
-    protected String brand;
-    protected double discount;
-    protected double price;
+    private String brand;
+    private double discount;
+    private double price;
 
 
     public StockItem() {
